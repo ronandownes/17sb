@@ -1,0 +1,13 @@
+
+
+
+\newcommand{\chap}[1]{\chapter{\protect\hyperlink{chap:\thechapter}{#1}}
+\addtocontents{toc}{\protect\hypertarget{chap:\thechapter}{}}}
+
+
+
+\newcommand{\clicki}[4]{\begin{figure*}[h!]
+   \centering
+    \href{#1}{\includegraphics[width={#2}\textwidth]{#3}}
+    \caption{\href{#1}{Click anywhere to explore {#4}}}
+\end{figure*}}
